@@ -1,0 +1,59 @@
+# selectors
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+input[type="button"] {
+  width: 100px;
+  margin-left: 35px;
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<form name="input" action="" method="get">
+  Firstname:<input type="text" name="Name" value="Navya" size="20">
+  Lastname:<input type="text" name="Name" value="Palle" size="20">
+  <input type="button" value="Submit">
+</form>
+
+</body>
+</html>
+
+
+http://jigsaw.w3.org/css-validator/
+
+
+# navigation-bars
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+</style>
+</head>
+<body>
+
+<p>In this example, we remove the bullets from the list, and its default padding and margin.</p>
+<p>Each and every navigation bar will direct you to their respective pages.</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#registration">Registration</a></li>
+  <li><a href="#Personal Details">Personal Details</a></li>
+</ul>
+
+</body>
+</html>
